@@ -1,0 +1,56 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 3rem);
+    grid-template-rows: repeat(1, 4rem) repeat(5, 3rem);
+    gap: 1rem;
+    background-color: gray;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: .9rem;
+}
+
+.span-2{
+    grid-column: span 2;
+    background-color: rgb(121, 224, 255);
+
+}
+
+.input-feild{
+    grid-column: 1/-1;
+
+}
+
+#equalto{
+    background-color: rgb(121, 224, 255);
+    color: black;
+}
+#clear{
+    background-color: rgb(121, 224, 255);
+    color: black;
+}
+
+
+.oper{
+    width: 100%;
+    text-align: end;
+    font-size: large;
+    height: 100%;
+    background-color: rgb(91, 91, 91);
+    border-radius: 0.6rem;
+    color: white;
+    border-right: 10px;
+    border: none;
+    
+}
+
+.btn{
+    border-radius: .4rem;
+    border: none;
+    background-color: #252626;
+    color: white;
+}
+
+.spec{
+    background-color: rgb(150, 232, 255);
+    color: black;
+}
